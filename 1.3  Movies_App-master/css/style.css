@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-padding-top: 2rem;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* custom scroll bar */
+html::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: var(--text-color);
+}
+html::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+  border-radius: 5rem;
+}
+/* custom scroll bar */
+:root {
+  --main-color:#ff2c1f;
+  --text-color:#020307;
+  --bg-color:#fff;
+}
+section {
+  padding: 4.5rem 1.5rem;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background: var(--text-color);
+  color: var(--bg-color);
+}
+/* Navbar */
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  z-index: 1000;
+  /* background-color: var(--bg-color); */
+  transition: 0.5s;
+}
+header.shadow {
+  background-color: var(--bg-color);
+  box-shadow: 0 0 4px rgb(14 55 54 / 15%);
+}
+
+header.shadow .logo i
+{
+  color: #ff2c1f;
+}
+
+header.shadow .logo  {
+  color: var(--text-color);
+}
+/* header ul li 
+{
+  color: var(--text-color);
+} */
+
+
+
+
+
+
+
+
+
+
+/* Navbar */
+/* Home */
